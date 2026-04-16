@@ -112,7 +112,21 @@
 //     }
 // }
 
+// import java.util.*;
+// public  static void main(String[]args){
+//     System.out.println("hello world in java  ");
+// }
+
 import java.util.*;
-public  static void main(String[]args){
-    System.out.println("hello world in java  ");
-}
+  public class core{
+    public static void main(String[]args){
+        // input  scanner 
+        Scanner sc = new Scanner(System.in);
+        int a   = sc.nextInt();
+
+        // for output in java  
+
+        System.out.println(a);
+    }
+  }
+
